@@ -2,9 +2,118 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Hello World</title>
+		<title>Assignment 2</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-    	Hello Text Inside the Body Tag!
+      <table>
+      	<caption>This table presents a hypothetical expense record.</caption>
+       <thead>
+       	<tr> 
+       	   <th></th>
+       	   <th>Salary</th>
+       	   <th>Additional Income</th>
+       	   <th>Required Expenses</th>
+       	   <th>Luxury Expenses</th>
+       	   <th>Net Savings</th>
+       	</tr>
+       </thead>
+       <tbody>
+       	<tr>
+       		<th>January</th>
+       		<td>5,000</td>
+       		<td>500</td>
+       		<td>2,000</td>
+       		<td>1,000</td>
+       		<td>2500</td>
+       	</tr>
+       	<tr>
+       		<th>February</th>
+       		<td>5,000</td>
+       		<td>650</td>
+       		<td>2,000</td>
+       		<td>500</td>
+       		<td>3,150</td>
+       	</tr>
+       	<tr>
+       		<th>March</th>
+       		<td>5,000</td>
+       		<td>500</td>
+       		<td>2,500</td>
+       		<td>800</td>
+       		<td>2,200</td>
+       	</tr>
+       	<tr>
+       		<th>April</th>
+       		<td>5,000</td>
+       		<td>700</td>
+       		<td>2,750</td>
+       		<td>500</td>
+       		<td>2,250</td>
+       	</tr>
+       	<tr>
+        	<th>May</th>
+        	<td>5,000</td>
+        	<td>750</td>
+        	<td>3,000</td>
+        	<td>500</td>
+        	<td>2,250</td>
+        </tr>
+
+       </tbody>
+       <tfoot>
+       	<td colspan="2">Footer 1</td>
+       	<td colspan="4">Footer 2</td>
+   	   </tfoot>
+
+      </table>
+
+      <dl>
+      	<dt>Month with the most savings</dt>
+      	<dd>February</dd>
+      	<dt>Month with the least savings</dt>
+      	<dd>March</dd>
+      	<dt>Month with the most income</dt>
+      	<dd>May</dd>
+      </dl>
+
+      <div>
+          <div class="outer-content">
+          <div class="inner-content">
+            text text text text text
+          </div>
+        </div>
+
+      <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+          <input type="text" name="text_input">
+          <input type="number" name="numerical_input">
+          <input type="password" name="password_input">
+          <select name="candy">
+              <option>Snickers</option>
+              <option>Skittles</option>
+              <option>Mentos</option>
+          </select>
+          <input type="submit">
+        </form>
+
+        <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
+          <input type="text" name="text_input">
+          <input type="number" name="numerical_input">
+          <input type="password" name="password_input">
+          <select name="candy">
+              <option>Snickers</option>
+              <option>Skittles</option>
+              <option>Mentos</option>
+          </select>
+          <input type="submit">
+        </form>
+        
+        <img>
+        <p>HTML Forms are one of the main points of interaction between a user and a web site or application. They allow users to send data to the web site. Most of the time that data is sent to the web server, but the web page can also intercept it to use it on its own.This is an introductory article to HTML Forms. Through a simple contact form, we'll see all the basic requirements to build HTML Forms. This article assumes you don't know anything about HTML Forms but assumes you know the basics of HTML and CSS.</p>
+
+        <p>An HTML Form is made of one or more widgets. Those widgets can be text fields (single line or multiline), select boxes, buttons, checkboxes, or radio buttons. Most of the time, those widgets are paired with a label that describes their purpose.You need nothing more than what is required to work with HTML: a text editor and a web browser. Of course, if you are used to it, you can take advantage of a full IDE such as Visual Studio, Eclipse, Aptana, etc., but it's up to you. The main difference between an HTML form and a regular HTML document is that, most of the time, the data collected by the form is sent to a web server. In that case, you need to set up a web server to receive and process the data. How to set up such a server is beyond the scope of this article, but if you want to know more, see the article dedicated to this topic: Sending and retrieving form data.(paragraphs from https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form)</p>
+
+
+
     </body>
 </html>
